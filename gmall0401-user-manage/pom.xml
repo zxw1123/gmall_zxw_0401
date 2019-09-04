@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.7.RELEASE</version>
+		<version>1.5.10.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.atguigu</groupId>
-	<artifactId>demo1</artifactId>
+	<groupId>com.atguigu.gmall0401</groupId>
+	<artifactId>gmall0401-user-manage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo1</name>
+	<name>gmall0401-user-manage</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
