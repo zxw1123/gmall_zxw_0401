@@ -9,16 +9,21 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
-public class BaseAttrInfo implements Serializable {
-    @Id
+public class SpuInfo implements Serializable{
     @Column
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
     @Column
-    private String attrName;
+    private String spuName;
+    @Column
+    private String description;
     @Column
     private String catalog3Id;
+    //不是一个字段
     @Transient
-    private List<BaseAttrValue> attrValueList;
+    private List<SpuImage> spuImageList;
 
+    @Transient
+    private  List<SpuSaleAttr> spuSaleAttrList;
 }
