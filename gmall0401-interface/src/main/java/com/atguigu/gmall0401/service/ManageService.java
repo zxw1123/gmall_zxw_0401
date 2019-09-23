@@ -51,4 +51,7 @@ public interface ManageService {
     public List<SpuSaleAttr> getSpuSaleAttrListCheckSkuId(String skuId,String spuId);
 
     public Map getSkuValueIdsMap(String spuId);
+
+    //根据 多个属性值查询平台属性
+    public List<BaseAttrInfo> getAttrList(List attrValueIdList);
 }

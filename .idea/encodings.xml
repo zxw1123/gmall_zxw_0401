@@ -4,11 +4,14 @@
     <file url="file://$PROJECT_DIR$/gmall0401-bean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-item-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall0401-list-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall0401-list-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-manage-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-manage-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-order-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-parent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gmall0401-user-manage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall0401-passport-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gmall0401-user-manage-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-util-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-util-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gmall0401-util-web" charset="UTF-8" />

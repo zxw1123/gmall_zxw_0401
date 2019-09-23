@@ -10,10 +10,14 @@
         <module name="gmall0401-bean" />
         <module name="gmall0401-interface" />
         <module name="gmall0401-item-web" />
+        <module name="gmall0401-list-service" />
+        <module name="gmall0401-list-web" />
         <module name="gmall0401-manage-service" />
         <module name="gmall0401-manage-web" />
         <module name="gmall0401-order-web" />
+        <module name="gmall0401-passport-web" />
         <module name="gmall0401-user-manage" />
+        <module name="gmall0401-user-manage-service" />
         <module name="gmall0401-util-common" />
         <module name="gmall0401-util-service" />
         <module name="gmall0401-util-web" />
@@ -24,11 +28,15 @@
       <module name="gmall0401-bean" target="1.8" />
       <module name="gmall0401-interface" target="1.8" />
       <module name="gmall0401-item-web" target="1.8" />
+      <module name="gmall0401-list-service" target="1.8" />
+      <module name="gmall0401-list-web" target="1.8" />
       <module name="gmall0401-manage-service" target="1.8" />
       <module name="gmall0401-manage-web" target="1.8" />
       <module name="gmall0401-order-web" target="1.8" />
       <module name="gmall0401-parent" target="1.8" />
+      <module name="gmall0401-passport-web" target="1.8" />
       <module name="gmall0401-user-manage" target="1.8" />
+      <module name="gmall0401-user-manage-service" target="1.8" />
       <module name="gmall0401-util-common" target="1.8" />
       <module name="gmall0401-util-service" target="1.8" />
       <module name="gmall0401-util-web" target="1.8" />
