@@ -41,8 +41,7 @@ public class ItemController {
     @Reference
     ManageService manageService;
 
-    @GetMapping("{skuId}.html")
-    @LoginRequire
+    @GetMapping("{skuId}.html")//详情页不用登陆，不用加@LoginRequire
     public String item(@PathVariable("skuId") String skuId, HttpServletRequest request){
         SkuInfo skuInfo = manageService.getSkuInfo(skuId);
         List<SpuSaleAttr> spuSaleAttrList = manageService.getSpuSaleAttrListCheckSkuId(skuId, skuInfo.getSpuId());

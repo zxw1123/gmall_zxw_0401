@@ -47,7 +47,7 @@ public class PassportController {
             String token = JwtUtil.encode(jwtKey, map, ipAddr);
             return token;
         }
-        return null;
+        return "fail";
     }
 
     @Test

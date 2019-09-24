@@ -7,7 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gma0401-cart-service" />
         <module name="gmall0401-bean" />
+        <module name="gmall0401-cart-service" />
+        <module name="gmall0401-cart-web" />
         <module name="gmall0401-interface" />
         <module name="gmall0401-item-web" />
         <module name="gmall0401-list-service" />
@@ -25,7 +28,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo1" target="1.8" />
+      <module name="gma0401-cart-service" target="1.8" />
       <module name="gmall0401-bean" target="1.8" />
+      <module name="gmall0401-cart-service" target="1.8" />
+      <module name="gmall0401-cart-web" target="1.8" />
       <module name="gmall0401-interface" target="1.8" />
       <module name="gmall0401-item-web" target="1.8" />
       <module name="gmall0401-list-service" target="1.8" />
